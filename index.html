@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111827">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Lavoro Agente">
+<link rel="manifest" href="manifest.json">
+<title>Lavoro Agente</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;background:#f4f5f7;color:#111827}
+header{background:#111827;color:white;padding:28px 20px 22px;padding-top:calc(28px + env(safe-area-inset-top));}
+h1{margin:0;font-size:28px}header p{margin:6px 0 0;color:#cbd5e1}
+main{padding:20px;max-width:700px;margin:auto}.card{background:white;border-radius:18px;padding:18px;margin-bottom:14px;box-shadow:0 2px 12px #00000010}
+.company{font-size:22px;font-weight:700}.muted{color:#64748b;margin-top:4px}
+.doc{display:flex;align-items:center;gap:14px}.icon{font-size:30px}.doc h2{font-size:18px;margin:0 0 5px}.doc p{margin:0;color:#64748b;font-size:14px}
+button{border:0;background:#111827;color:white;border-radius:12px;padding:12px 16px;font-size:16px;font-weight:600;margin-top:14px;width:100%}
+nav{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}.nav{background:white;border-radius:14px;padding:16px;text-align:center;font-weight:600;color:#334155}
+footer{text-align:center;color:#94a3b8;font-size:12px;padding:12px 20px 30px}
+</style>
+</head>
+<body>
+<header><h1>Lavoro Agente</h1><p>Archivio personale di aziende e documenti</p></header>
+<main>
+<section class="card">
+  <div class="company">🏢 Fiorucci</div>
+  <div class="muted">Documenti e depliant</div>
+</section>
+<section class="card">
+  <div class="doc">
+    <div class="icon">📄</div>
+    <div><h2>Catalogo Fiorucci 2026</h2><p>Catalogo completo • PDF • 69 pagine</p></div>
+  </div>
+  <button onclick="location.href='ITA CatalogoFiorucci2026_WEB.pdf'">Apri PDF</button>
+</section>
+<nav>
+  <div class="nav">👥<br>Clienti</div>
+  <div class="nav">🧾<br>Ordini</div>
+  <div class="nav">⚙️<br>Impostazioni</div>
+</nav>
+</main>
+<footer>Versione 1.0 • Lavoro Agente</footer>
+</body>
+</html>
